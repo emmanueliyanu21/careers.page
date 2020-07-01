@@ -11,6 +11,7 @@
     font-weight: bolder;
     color: #011b33;
     font-size: 42px;
+    font-family: "DM Sans";
 }
 
 .caption-header p {
@@ -20,6 +21,7 @@
     font-weight: normal;
     padding-top: 10px;
     padding-bottom: 20px;
+    font-family: "DM Sans";
 }
 
 @media (max-width: 767px) {
@@ -35,6 +37,7 @@
     border-radius: 4px;
     margin-bottom: 30px;
     margin-top: 20px;
+    font-family: "DM Sans"!important;
 }
 
 .caption-header .btn-opening:hover {
@@ -64,12 +67,14 @@
     font-weight: 600;
     font-size: 28px;
     padding-bottom: 20px;
+    font-family: "DM Sans";
 }
 
 .inner-text p {
     color: #7B8088;
     font-size: 16px;
     line-height: 2.0;
+    font-family: "DM Sans";
 }
 
 .stuff-image img {
@@ -119,12 +124,12 @@
     /* font-weight: 650; */
     padding-top: 7px;
     margin-bottom: 20px;
-    /* font-family: Roboto, sans-serif; */
+    font-family: "DM Sans";
     color: #000!important;
 }
 
 .card-body .card-text {
-    /* font-family: Roboto, sans-serif; */
+    font-family: "DM Sans";
     font-size: 14px;
     line-height: 1.8;
     letter-spacing: 0.4px;
@@ -134,26 +139,26 @@
 .card-open {
     font-size: 24px;
     font-weight: 650;
-    /* font-family: Roboto, sans-serif; */
+    font-family: "DM Sans";
 }
 
 .card-body .card-sub {
     color: #7b8088;
     font-size: 12px!important;
-    /* font-family: Roboto, sans-serif; */
+    font-family: "DM Sans";
 }
 
 .card-body .card-subtitle {
     color: #FB3F5C;
     font-size: 14px;
     font-weight: 550;
-    /* font-family: Roboto, sans-serif; */
+    font-family: "DM Sans";
 }
 
 .card-body span {
     color: black!important;
     padding-right: 5px;
-    /* font-family: Roboto, sans-serif; */
+    font-family: "DM Sans";
 }
 
 .card-apply {
@@ -166,7 +171,7 @@
     padding: 7px 40px!important;
     font-weight: 550;
     margin-top: 100px;
-    /* font-family: Roboto, sans-serif; */
+    font-family: "DM Sans";
 }
 
 .card-apply .btn-jobs {
@@ -182,7 +187,7 @@
 .card-apply .card-status {
     color: #7b8088;
     padding-top: 10px;
-    /* font-family: Roboto, sans-serif; */
+    font-family: "DM Sans";
 }
 
 .job-page {
