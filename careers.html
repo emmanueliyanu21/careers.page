@@ -6,11 +6,41 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./footer.css">
+    <link rel="stylesheet" href="./nav.css">
     <title>Document</title>
 </head>
 
 <body>
+    <nav class="navbar navbar-expand-sm bg-light fixed-top">
+        <a class="navbar-brand" href="#">
+            <img src="../../img/layer1.png" alt="image" /></a>
+        <div class="menu-btn">
+            <div class="menu-btn__burger"></div>
+        </div>
+        <div class="navbar-collapse navv" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto" id="ham">
+                <li class="nav-item">
+                    <a class="nav-link" href="#home">LEND</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#course">BORROW</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#features">ABOUT</a>
+                </li>
+
+                <li class="nav-item">
+                    <button type="button" class="btn btn-danger nav-btn">Login</button>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
     <section class="bk-color">
         <div class="container" style="position:relative; z-index:10;">
             <div class="row">
@@ -26,7 +56,7 @@
             </div>
         </div>
         <div class="patterns">
-            <img src="./img/curved-pattern.png" class="img-fluid" alt="">
+            <img src="./img/career-curved-pattern.png" class="img-fluid" alt="">
         </div>
     </section>
 
@@ -125,6 +155,50 @@
         </div>
     </section>
 
+    <footer class="footer">
+        <div class="footer-li">
+            <div class="left">
+                <ul>
+                    <li><img src="../../img/Group 3005.png" alt="" /></li>
+                    <li>address</li>
+                    <li>email address</li>
+                    <li>phone</li>
+                </ul>
+
+                <div>
+                    <ul class="footer-icons">
+                        <li>
+                            <a href="#"><img src="../../img/Vector (1).png" alt="" /></a>
+                        </li>
+                        <li><a href="#"><img src="../../img/Vector (2).png" alt="" /></li></a>
+                        <li><a href="#"><img src="../../img/Vector (3).png" alt="" /></a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="right">
+                <ul>
+                    <h4>RESOURCES</h4>
+                    <li>Why choose FundMyLaptop</li>
+                    <li>How P2P Lending works</li>
+                    <li>About FundMyLaptop</li>
+                    <li>Contact Us</li>
+                </ul>
+            </div>
+        </div>
+        <div class="container mt-4 bottom">
+            <p>2020 &copy; Copyright All Rights Reserved</p>
+
+            <ul>
+                <li>FAQ</li>
+                <li>Privacy Policy</li>
+                <li>Terms & Conditions</li>
+            </ul>
+        </div>
+    </footer>
+
+    <script src="./jquery.js"></script>
+    <script src="./main.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
 </body>
